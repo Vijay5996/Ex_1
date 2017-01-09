@@ -29,8 +29,8 @@ public class MainActivity extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				String data = textInput.getText().toString();
-				Toast msg = Toast.makeText(getApplicationContext(), "HELLO", Toast.LENGTH_LONG);
-				msg.show();
+				/*Toast msg = Toast.makeText(getApplicationContext(), "HELLO", Toast.LENGTH_LONG);
+				msg.show();*/
 			
 				Intent i = new Intent(MainActivity.this,SecActivity.class);
 				i.putExtra("username",data);
